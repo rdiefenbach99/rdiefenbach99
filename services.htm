@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--@author Robbie Diefenbach, Diefenbach's Bicycles Services, Southern Illinois University Developed: 9-19-2023 Tested: 9-26-2023-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Diefenbach's Bicycles</title>
+        <link rel="shortcut icon" href="images/bicycle.ico">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+        }); </script>
+        <meta name="description" content="services page"> <meta name="keywords" content="diefenbach, cycle, bike, services, repair, parts">
+    </head>
+    <body>
+        <header>
+            <!--Navigation Menu -->
+            <nav id="mobile_menu"></nav>
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="index.htm">Home</a></li>
+                    <li><a href="sales.htm">Sales</a></li>
+                    <li><a href="rentals.htm">Rentals</a></li>
+                    <li><a href="services.htm" class="current">Services</a></li>
+                    <li><a href="contact.htm" class="lastitem">Contact</a></li>
+                </ul>
+            </nav>
+        </header>    
+            <!--Table-->
+        <figure>
+            <figcaption>Here are all our services. Call now!</figcaption>
+            <table>
+            <thead>    
+            <tr>
+                <th class="left">Service</th>
+                <th>Description</th> 
+                <th>Cost</th>
+                <th>Time</th>
+                <th>Turnaround</th>
+                <th>Requires Appt?</th>
+            </tr> 
+            </thead>
+            <tbody>
+            <tr>
+                <td class="left">Safety Checks</td> 
+                <td>Standard</td> 
+                <td>$10</td>
+                <td>1 Hour</td>
+                <td>1 Day</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td class="left">Brake Adjustments</td> 
+                <td>Adjust Front and Rear</td> 
+                <td>$15</td>
+                <td>1 Hour</td>
+                <td>1 Day</td>
+                <td>Yes</td>
+            </tr> 
+            <tr>
+                <td class="left">Clean up and Lube</td> 
+                <td>Varies on condition</td> 
+                <td>$30-$60</td>
+                <td>1-4 Hours</td>
+                <td>2 Days</td>
+                <td>Yes</td>
+            </tr> 
+            <tr>
+                <td class="left">Tire Repair</td> 
+                <td>Find puncture, fix flat</td> 
+                <td>$15</td>
+                <td>1 Hour</td>
+                <td>1 Day</td>
+                <td>No</td>
+            </tr> 
+            <tr>
+                <td class="left">Seat and Handlebar</td> 
+                <td>Adjustments for rider size</td> 
+                <td>$10</td>
+                <td>1 Hour</td>
+                <td>1 Day</td>
+                <td>No</td>
+            </tr> 
+            <tr>
+                <td class="left">Cable Replacement</td> 
+                <td>Remove cable, replace</td> 
+                <td>$30</td>
+                <td>2 Hours</td>
+                <td>1 Day</td>
+                <td>Yes</td>
+            </tr> 
+            <tr>
+                <td class="left">Parts Replacement</td> 
+                <td>Per part</td> 
+                <td>$15</td>
+                <td>Per Hour</td>
+                <td>1 Day</td>
+                <td>Yes</td>
+            </tr> 
+            <tr>
+                <td class="left">Repair Bike Chain</td> 
+                <td>Remove Chain, repair, lube</td> 
+                <td>$15</td>
+                <td>1 Hour</td>
+                <td>1 Day</td>
+                <td>No</td>
+            </tr> 
+            <tr>
+                <td class="left">Calibrate Gears</td> 
+                <td>Estimate and Calibrate</td> 
+                <td>$15</td>
+                <td>1 Hour</td>
+                <td>1 Day</td>
+                <td>Yes</td>
+            </tr> 
+            <tr>
+                <td class="left">Adjust Wheel Hubs</td> 
+                <td>Estimate</td> 
+                <td>$15</td>
+                <td>1 Hour</td>
+                <td>1 Day</td>
+                <td>Yes</td>
+            </tr> 
+            <tr>
+                <td class="left">Miscellaneous Repairs</td> 
+                <td>Estimate</td> 
+                <td>$15</td>
+                <td>Per Hour</td>
+                <td>1 Day</td>
+                <td>Yes</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <p class ="first">*All prices and times estimates only. One hour minimum charge.</p>
+            </tr>    
+            </tfoot>
+        </table>
+        </figure>    
+    </body>
+</html>

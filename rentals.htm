@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- @author Robbie Diefenbach, Diefenbach's Bicycles Rental, Southern Illinois University Developed: 9-19-2023 Tested: 9-19-2023 -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Rentals</title>
+        <link rel="shortcut icon" href="images/bicycle.ico">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+        }); </script>
+        <meta name="description" content="rental bicycles"> <meta name="keywords" content="diefenbach's bicycles, street bikes, outdoor bikes, rentals">
+    </head>
+    <body>
+        <!--Navigation Menu -->
+        <header>
+        <nav id="mobile_menu"></nav>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="sales.htm">Sales</a></li>
+                <li><a href="rentals.htm" class="current">Rentals</a></li>
+                <li><a href="services.htm">Services</a></li>
+                <li><a href="contact.htm" class="lastitem">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+            <h1>Rentals at Diefenbach's Bicycles</h1>
+        <h2> All rental bikes are serviced, tuned and ready to ride, with free 24 hour curbside road assistance! You can choose a street bike for riding on pavement and in town, or an outdoor bike for the woods- whaetver your rental needs. Please call 1-618-aaa-xxxx for more information.</h2>
+        <!-- 1st column Street Bikes  -->
+        <main>
+            <h2>Rent a Street for $100 per day</h2>
+            <h3>1.) Street Bike - Adult</h3>
+            <p class ="first">2012 26" Gary Fisher Street Bike, forged crank, v-brakes, tire pump, padded seat, cargo rack, puncture resistant tires, adult helmet included</p>
+            <h3>2.) Street Bike - Child</h3>
+            <p class ="first">2016 26" Trek Street Bike, forged crank, v-brakes, tire pump, padded seat, cargo rack, puncture resistant tires, child helmet included</p>
+        </main>
+        <!-- 1st column Outdoor Bikes  -->
+        <aside>
+            <h2>Rent an Outdoor for $75 per day</h2>
+            <h3>1.) Outdoor - Adult</h3>
+            <p class ="first">2012 26" Trek Outdoor Bike, forged crank, disc brakes, tire pump, padded seat, cargo rack, puncture resistant off-road tires, adult helmet included</p>
+            <h3>2.) Outdoor - Child</h3>
+            <p class ="first">2013 26" GT Outdoor Bike, forged crank, disc brakes, tire pump, padded seat, cargo rack, puncture resistant tires, child helmet included</p>
+        </aside> 
+        
+        <!-- Rental terms  -->
+        <footer>
+            <h2>2023 Rental Terms</h2>
+        </footer>
+        <p class ="first">Terms of Service: Bike must be rented by an adult over the age of 18 years old. Disclaimer and waiver must be signed, details will be inlcuded at the time of sale.</p>
+        <!-- basic image without purpbord  -->
+        <div class="img"><img src="images/Photo_by_RooFowler.jpg"alt="MPC Logo" width="100"></div>
+    </body>
+</html>

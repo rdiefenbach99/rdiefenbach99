@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--@author Robbie Diefenbach, Diefenbach's Bicycles Sales, Southern Illinois University Developed: 9-19-2023 Tested: 9-26-2023 -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Diefenbach's Bicycles</title>
+        <link rel="shortcut icon" href="images/bicycle.ico">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+        }); </script>
+        <meta name="description" content="sales page"> <meta name="keywords" content="diefenbach, cycle, bike, sales, buy, specials">
+    </head>
+    <body>
+            <header>
+            <!--Navigation Menu -->
+            <nav id="mobile_menu"></nav>
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="index.htm">Home</a></li>
+                    <li><a href="sales.htm" class="current">Sales</a></li>
+                    <li><a href="rentals.htm">Rentals</a></li>
+                    <li><a href="services.htm">Services</a></li>
+                    <li><a href="contact.htm" class="lastitem">Contact</a></li>
+                </ul>
+            </nav>
+        </header>   
+            <main>
+            <!-- Silly little mushroom video made by me  -->
+            <embed 
+                   autoplay="true"
+                   type="video/mp4"
+                   src="video/mushroom.mp4" width="250" height="370">
+            </main>
+            <main><!-- List of on Sale Bikes  -->
+            <h2>1.) Road Bike </h2>
+            <p class ="first">2019 26" Trek Ascend, your choice of components, starts at $2,000.00</p>
+            <h2>2.) Road Bike - TRK</h2>
+            <p class ="first">2019 26" Trek 5000 Bike, your choice of components, starts at $1,000.00</p>
+            <h2>3.) MTB - GT</h2>
+            <p class ="first">2019 29" GT Mountain Bike, your choice of components, starts at $700.00</p>
+            <h2>4.) MTB - Trek</h2>
+            <p class ="first">2019 29" Trek Mountain Bike, your choice of components, starts at $800.00</p>
+        </main>
+    </body>
+</html>
